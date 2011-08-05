@@ -1,4 +1,4 @@
-module CodeBreaker
+module Codebreaker
   class Game
     def initialize(output)
     end
