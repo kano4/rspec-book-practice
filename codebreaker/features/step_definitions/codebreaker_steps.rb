@@ -17,6 +17,7 @@ end
 
 When /^I start a new game$/ do
   CodeBreaker::Game.new.start
+  game.start
 end
 
 Then /^I should see "([^"]*)"$/ do |message|
