@@ -1,3 +1,6 @@
 Given /^I am not yet playing$/ do
-  pending # express the regexp above with the code you wish you had
+end
+
+When /^I start a new game$/ do
+  CodeBreaker::Game.new.start
 end
